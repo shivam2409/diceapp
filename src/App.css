@@ -28,10 +28,31 @@
   color: #61dafb;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .Die {
   font-size: 10em;
   padding: 0.25em;
   color: orangered;
+}
+
+button {
+  width: 15em;
+  padding: 1.5em;
+  border: 0px;
+  border-radius: 12px;
+  color: #ffffff;
+  background-color: black;
+  margin-top: 3em;
+}
+
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
